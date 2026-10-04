@@ -2,7 +2,7 @@ import headerImage from "../assets/banner.png";
 
 const Header = () => {
   return (
-    <div className="flex flex-col lg:flex-row gap-4 mt-10 w-10/12 mx-auto justify-between items-center h-[360px] lg:h-[760px] ">
+    <div className="flex flex-col lg:flex-row gap-4 mt-10 w-10/12 mx-auto justify-between items-center h-full lg:h-[360px] lg:h-[760px] ">
       {/* This is content section */}
       <div>
         <div className="flex gap-[5px] py-2 px-4 bg-[#e1e7ff] w-[294px] h-[38px] rounded-full items-center">
@@ -13,7 +13,7 @@ const Header = () => {
         </div>
         <div>
           <h1 className="text-[32px] lg:text-[72px] font-extrabold text-[#101727] mt-[20px] ">
-            Supercharge You Digital Workflow
+            Supercharge Your <br /> Digital Workflow
           </h1>
           <p className="text-[#627382] text-[18px] mt-[20px] ">
             Access premium AI tools, design assets, templates, and productivity{" "}
