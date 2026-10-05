@@ -1,6 +1,6 @@
 const Pricing = () => {
   return (
-    <div className=" flex justify-center w-10/12 mx-auto h-full lg:h-[762px] mt-[60px] md:mt-[120px]   ">
+    <div className=" flex justify-center w-10/12 mx-auto mt-[60px] md:mt-[120px]   ">
       <div className="mt-0 ">
         <h1 className="text-[30px] lg:text-[48px] font-extrabold text-center">
           Simple, Transparent Pricing
@@ -9,7 +9,7 @@ const Pricing = () => {
           Choose the plan that fits needs. Upgrade or downgrade anytme
         </p>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-[30px] mt-5 md:mt-[40px]">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-[30px] mt-5 md:mt-[40px] md:mb-[120px]">
           {/* Cart - 1 */}
            <div className="card w-96  shadow-smt bg-[#F2F2F2] rounded-2xl">
             
