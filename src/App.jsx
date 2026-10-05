@@ -2,6 +2,7 @@ import "./App.css";
 import ActiveUsers from "./components/ActiveUsers";
 import GetSteps from "./components/GetSteps";
 import Header from "./components/Header";
+import Pricing from "./components/Pricing";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
      <Header />
      <ActiveUsers />
      <GetSteps />
+     <Pricing />
     </div>
   );
 }
